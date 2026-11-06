@@ -118,7 +118,10 @@ textarea { min-height: 112px; resize: vertical; line-height: 1.5; }
 .mail-note { margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--line); font-size: 13px; line-height: 1.5; color: var(--muted); }
 .mail-note a { color: var(--red-ink); font-weight: 600; text-decoration: none; overflow-wrap: anywhere; }
 .mail-note a:hover { text-decoration: underline; }
-.note { margin-top: 40px; border-left: 3px solid var(--red); background: var(--paper); padding: 18px 22px; font-size: 15px; }
+.disclaimer { margin-top: 40px; background: var(--paper); border: 1px solid var(--line); border-top: 4px solid var(--navy); padding: 22px 24px; font-size: 15px; line-height: 1.6; }
+.disclaimer p { margin-top: 10px; }
+.disclaimer .rule-label { margin-bottom: 4px; }
+.note { margin-top: 24px; border-left: 3px solid var(--red); background: var(--paper); padding: 18px 22px; font-size: 15px; }
 .note b { color: var(--ink); }
 .consent { display: flex; gap: 10px; margin-top: 18px; font-size: 14px; align-items: flex-start; }
 .consent input { width: 18px; height: 18px; margin-top: 3px; flex: none; accent-color: var(--navy); }
@@ -215,6 +218,13 @@ footer .mini .sep { width: 1px; height: 22px; background: rgba(255,255,255,.3); 
     </section>
 
     <div id="questions"></div>
+
+    <aside class="disclaimer" aria-label="Observação sobre o escopo deste questionário">
+      <span class="rule-label">Observação</span>
+      <p>As respostas e os documentos encaminhados por meio deste questionário constituem a base inicial da análise que subsidiará a elaboração do plano de ação voltado à adequação das empresas à Reforma Tributária.</p>
+      <p>No decorrer dos trabalhos, o Ventura Advogados reserva-se a faculdade de solicitar, sempre que necessário, documentação complementar, esclarecimentos e demais informações pertinentes, de modo a assegurar a precisão das conclusões e a adequada continuidade do projeto.</p>
+      <p>Agradecemos, desde já, a atenção e a colaboração.</p>
+    </aside>
 
     <div class="note">
       <b>Orientação:</b> as respostas podem vir acompanhadas de planilhas, relatórios extraídos dos sistemas e documentos já existentes. Se alguma informação não estiver disponível, basta indicar isso, sem necessidade de levantamento adicional neste primeiro momento.
